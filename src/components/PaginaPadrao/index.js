@@ -12,7 +12,7 @@ export default function PaginaPadrao() {
       <Header
         titulo='Itens de ROK'
         descricao='Compre e pesquise as melhores skills de ROK'
-        imagem={logo}
+        imagem={logo}        
         className={styles.header}
       />
       <div className={styles['container-outlet']}>
