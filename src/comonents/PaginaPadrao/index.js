@@ -8,7 +8,7 @@ export default function PaginaPadrao() {
         <div className={styles.container}>
             <Navbar />
             <div className={styles['container-outlet']}>
-                <Outlet />
+                <Outlet /> .......
             </div>
             <Footer />
         </div>       
