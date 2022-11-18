@@ -20,8 +20,8 @@ export default function Navbar() {
             <div>
                 <a href='/' classname={classNames(styles.link, {
                     [styles.selected]: window.location.pathname === '/'
-                })} style={{color:'#fff', fontSize: '22px'}}>
-                    Home
+                })} style={{color:'#fff', fontSize: '24px'}}>
+                    Página Inicial
                 </a>
             </div>
         </div>

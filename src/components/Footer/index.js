@@ -3,6 +3,7 @@
 //o interessante é colocar fora do componente para evitar recarregar e renderizar
 //estas propriedades
 import styles from './Footer.module.scss';
+import { ReactComponent as MarcaRegistrada } from 'assets/marca-registrada.svg';
 import {
     FaFacebook,
     FaTwitter,
@@ -11,7 +12,7 @@ import {
 
 const iconeProps = {
     color: 'white',
-    size: '24'
+    size: '20'
 }
 
 export default function Footer() {
@@ -23,7 +24,7 @@ export default function Footer() {
                 <FaInstagram {...iconeProps}  />
             </div>
             <span>
-                Desenvolvido por Onment - 2022
+                Desenvolvido por Onemt <MarcaRegistrada /> - 2022                 
             </span>
 
         </footer>
