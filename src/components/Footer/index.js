@@ -11,7 +11,7 @@ import {
 
 const iconeProps = {
     color: 'white',
-    size: '24,'
+    size: '24'
 }
 
 export default function Footer() {

@@ -1,11 +1,10 @@
 import styles from './Navbar.module.scss'
-import Logo from '../../assets/logo.png'
 import classNames from 'classnames'
 import {
     RiShoppingCart2Line,
     RiShoppingCartFill
 } from 'react-icons/ri';
-import Busca from 'comonents/Busca';
+import Busca from 'components/Busca';
 
 const iconeProps = {
     color: 'white',
@@ -16,7 +15,7 @@ const iconeProps = {
 export default function Navbar() {
     return(
        <nav className={styles.nav}>
-        <img src={Logo} className={styles.logo} alt='ROK'/>       
+        <span className={styles.logo}>Rise of The Kings</span>      
         <div className={styles.links}>
             <div>
                 <a href='/' classname={classNames(styles.link, {
